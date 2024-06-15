@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <title>Formulario de Pesquisa</title>
+</head>
+<body>
+    <h1>Pesquisa de Satisfação</h1>
+    <form methodo="post" action="procesar.pesquisa.html">
+        <section>
+            <h2>Dados Pessoais</h2>
+            <p>
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome"/>
+            </p>
+            <p>
+                <label for="email">E-mail: </label>
+                <input type="email" id="email"/>
+            </p>   
+            <p>
+                <label for="telefone">Telefone: </label>
+                <imput type="tel" id="telefone"/>
+            </p>
+    </section>
+    <section>
+    <h2>Dados de Pesquisa</h2>
+        <P>
+          numa escala de 1 a 5, indique o nivel de atendimento prestado:
+          <input type="radio" id="1" name="nivel de atendimento"/>
+          <label for="1">1</label>
+          <input type="radio" id="1" name="nivel de atendimento"/>
+          <label for="2">2</label>
+          <input type="radio" id="1" name="nivel de atendimento"/>
+          <label for="3">3</label>
+          <input type="radio" id="1" name="nivel de atendimento"/>
+          <label for="4">4</label>
+          <input type="radio" id="1" name="nivel de atendimento"/>
+          <label for="5">5</label>
+          <P>
+          Numa escale de 1 a 5, indique o nivel de satisfação em relação a resolução do problema: 
+          <input type="radio" id="1" name="nivel de resolução do problema"/>
+          <label for="1">1</label>
+          <input type="radio" id="1" name="nivel de resolução do problema"/>
+          <label for="2">2</label>
+          <input type="radio" id="1" name="nivel de resolução do problema"/>
+          <label for="3">3</label>
+          <input type="radio" id="1" name="nivel de resolução do problema"/>
+          <label for="4">4</label>
+          <input type="radio" id="1" name="nivel de resolução do problema"/>
+          <label for="5">5</label>
+          </P> 
+          <P>
+            <label>Departamento de atendimento</label>
+            <select>
+                 <option>Marketng</option>
+                 <option>Financeiro</option>
+                 <option>Comercial</option>
+                 <option>Logistica</option>
+                 <option>Recursos humanos</option>
+            </select>
+          </P> 
+          <p>
+            <input type="checkbox" i="compartilhar dados" />
+            <label for="comartilhar.dados">Autorizo compartilhar dados com terceiros</label>
+          </p>
+        </section>
+    <input type="submit" value="Enviar"/>  
+    </form>
+</body>
+</html>
